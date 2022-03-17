@@ -1,0 +1,22 @@
+{
+  "short_name": "React App",
+  "name": "Chrome Extension Sampler",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Check the crypto info"
+  },
+  "icons":
+    {
+      "128": "logo.png"
+    },
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "permissions": [
+    "activeTab"
+  ]
+}
