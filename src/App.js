@@ -5,7 +5,7 @@ import "./styles.css";
 export default function App() {
   const [url, setUrl] = useState('');
 
-  // Get the current Url
+  // Get the current tab Url
   
 
   return (
